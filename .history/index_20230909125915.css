@@ -33,16 +33,16 @@
   line-height: 115%;
 }
 .container .collaj-box {
-  margin-top: 43px;
   display: flex;
-  justify-content: space-between;
 }
 .container .collaj-box img {
   width: 304px;
   height: 356px;
 }
-
-.container .collaj-box .text-container h1 {
+.text-container {
+  background-color: red;
+}
+.text-container h1 {
   margin-bottom: 51px;
   width: 628px;
   color: #000;
@@ -51,7 +51,7 @@
   font-style: normal;
   font-weight: 700;
 }
-.container .collaj-box .text-container p {
+.text-container p {
   width: 414px;
   color: #000;
   font-family: Roboto;
@@ -59,27 +59,27 @@
   font-style: normal;
   font-weight: 400;
 }
-.container .card-box-container {
-  margin-top: 87px;
-  display: flex;
-  justify-content: center;
+.img {
+  width: 304px;
+  height: 356px;
 }
-.container .card-box {
-  padding: 19px 27px;
+.blue {
   border-radius: 5px;
   background: #1e4681;
   width: 483.635px;
+  height: 200px;
 }
 
-.container .card-box h1 {
-  margin-bottom: 10px;
+.blue h1 {
+  width: 430.589px;
+  height: 113px;
   color: #fff;
   font-family: Roboto Slab;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
 }
-.container .card-box h2 {
+.blue h2 {
   color: #fff;
   text-align: right;
   font-family: Roboto;
@@ -87,4 +87,3 @@
   font-style: normal;
   font-weight: 400;
 }
-

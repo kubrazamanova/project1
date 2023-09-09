@@ -33,7 +33,7 @@
   line-height: 115%;
 }
 .container .collaj-box {
-  margin-top: 43px;
+    margin-top: 43px;
   display: flex;
   justify-content: space-between;
 }
@@ -59,20 +59,18 @@
   font-style: normal;
   font-weight: 400;
 }
-.container .card-box-container {
-  margin-top: 87px;
-  display: flex;
-  justify-content: center;
-}
+
 .container .card-box {
-  padding: 19px 27px;
+    margin: auto;
+    padding: 19px 27px;
   border-radius: 5px;
   background: #1e4681;
   width: 483.635px;
+ 
 }
 
 .container .card-box h1 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
   color: #fff;
   font-family: Roboto Slab;
   font-size: 25px;
@@ -87,4 +85,3 @@
   font-style: normal;
   font-weight: 400;
 }
-

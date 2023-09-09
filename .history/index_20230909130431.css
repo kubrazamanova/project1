@@ -33,7 +33,7 @@
   line-height: 115%;
 }
 .container .collaj-box {
-  margin-top: 43px;
+    margin-top: 43px;
   display: flex;
   justify-content: space-between;
 }
@@ -59,27 +59,24 @@
   font-style: normal;
   font-weight: 400;
 }
-.container .card-box-container {
-  margin-top: 87px;
-  display: flex;
-  justify-content: center;
-}
-.container .card-box {
-  padding: 19px 27px;
+
+.container.card-box {
   border-radius: 5px;
   background: #1e4681;
   width: 483.635px;
+  height: 200px;
 }
 
-.container .card-box h1 {
-  margin-bottom: 10px;
+.card-box h1 {
+  width: 430.589px;
+  height: 113px;
   color: #fff;
   font-family: Roboto Slab;
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
 }
-.container .card-box h2 {
+.card-box h2 {
   color: #fff;
   text-align: right;
   font-family: Roboto;
@@ -87,4 +84,3 @@
   font-style: normal;
   font-weight: 400;
 }
-
