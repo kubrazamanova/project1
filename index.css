@@ -16,6 +16,7 @@
   display: flex;
 }
 .container ul li {
+  list-style-type: none;
   display: flex;
   margin-right: 25px;
 }
@@ -88,3 +89,141 @@
   font-weight: 400;
 }
 
+/* table */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 22px 142px 100px 71px;
+  }
+
+  .container .logo-img {
+    width: 64.867px;
+    height: 38.225px;
+  }
+
+  .container ul {
+    margin-top: 56px;
+  }
+  .container ul li {
+    margin-right: 14px;
+  }
+
+  .container ul li img {
+    margin-right: 7px;
+    width: 13px;
+    height: 13px;
+  }
+  .container ul li p {
+    font-size: 12px;
+  }
+
+  .container .collaj-box {
+    margin-top: 7px;
+  }
+
+  .container .collaj-box img {
+    width: 177px;
+    height: 287px;
+  }
+
+  .container .collaj-box .text-container h1 {
+    margin-bottom: 30px;
+    font-size: 46px;
+    width: 364px;
+  }
+
+  .container .collaj-box .text-container p {
+    width: 264px;
+    font-size: 12px;
+  }
+
+  .container .card-box-container {
+    margin-top: 39px;
+  }
+
+  .container .card-box {
+    padding: 11px 16px;
+    width: 280px;
+  }
+
+  .container .card-box h1 {
+    font-size: 14px;
+  }
+
+  .container .card-box h2 {
+    font-size: 12px;
+  }
+}
+
+
+/* mobile */
+@media screen and (max-width: 768px) {
+    .container {
+      padding: 36px 32px 75px 35px;
+    }
+    .container .logo-img {
+        width: 52px;
+        height: 30px;;
+      }
+    
+      .container ul {
+        margin-top: 45px
+    
+      }
+      .container ul li {
+        margin-right: 12px;
+      }
+    
+      .container ul li img {
+        width: 10px;
+        height: 10px;
+      }
+      .container ul li p {
+        font-size: 10px;
+      }
+    
+      .container .collaj-box {
+        flex-direction: column;
+        margin-top: 10px;
+      }
+    
+      .container .collaj-box img {
+        width: 141px;
+        height: 166px;
+        margin-left: auto;
+        
+      }
+    
+      .container .collaj-box .text-container h1 {
+        margin-bottom: 20px;
+        font-size: 37px;
+        width: 293px;
+      }
+    
+      .container .collaj-box .text-container p {
+        margin-bottom: 10px;
+        width: 212px;
+        font-size: 10px;
+      }
+    
+      .container .card-box-container {
+        margin-top: 39px;
+        justify-content: flex-start;
+        background-color: red;
+      }
+    
+      .container .card-box {
+        padding: 10px 12px;
+        width: 226px;
+      }
+    
+      .container .card-box h1 {
+        font-size: 11px;
+      }
+    
+      .container .card-box h2 {
+        font-size: 10px;
+      }
+    
+
+}
